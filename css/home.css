@@ -1,0 +1,170 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+@media(min-width:768px){
+    body {
+	    background-color: #f6f6f6;
+	    font-family:'Times New Roman', Times, serif;
+    }
+}
+.cont {
+	width: 80%;
+	margin: auto;
+}
+
+header {
+	padding: 70px 0;
+    background-color: #b2fac8;
+	border-radius: 40px;
+}
+
+header .cont {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header .txt1 {
+	font-family: 'Times New Roman', Times, serif;
+	font-weight:500;
+	color: #f2f4fa;
+	font-size: 40px;
+}
+
+.txt1 {
+	padding: 70px;
+    background-color: #1e212d;
+	border-radius: 40px;
+}
+
+header nav a {
+	color: #1e212d;
+	text-decoration:none;
+	margin-right: 70px;
+	font-size: 30px;
+}
+
+header nav a:hover,
+header nav a.activo {
+	color: #161d6f;
+}
+
+h2 {
+	top: 300px;
+	position:absolute;
+}
+
+.header .cont {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.cont {
+	width: 50%;
+	margin: auto;
+}
+
+.header2 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px;
+    position: absolute;
+    width: 1224px;
+    height: 87px;
+    left: 78px;
+    top: 817px;
+    background: #a9f1df;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 70px;
+}
+
+.primera {
+    position: absolute;
+    width: 305px;
+    height: 236px;
+    left: 208px;
+    top: 0px;
+    background: #91C788;
+    border-radius: 50px;    
+}
+
+.segunda {
+    position: absolute;
+    width: 308px;
+    height: 234px;
+    left: 728px;
+    top: 0px;
+    background: #91C788;
+    border-radius: 50px;
+}
+
+.Info {
+    position: absolute;
+    text-align: center;
+    width: 300px;
+    height: 70px;
+    left: 208px;
+    top: 250px;
+    background: #91C788;
+    border-radius: 50px;  
+}
+
+.Contacto {
+    position: absolute;
+    text-align: center;
+    width: 308px;
+    height: 70px;
+    left: 728px;
+    top: 250px;
+    background: #91C788;
+    border-radius: 50px;
+}
+
+.header3 {
+    padding: 70px 0;
+    background-color: #B8C1EC;
+	border-radius: 40px;
+    background: #C6FFC1;
+    border-radius: 0px 80px;
+    height: 350px;
+    top: 600px;
+    position: relative;
+}
+
+.Info4 {
+    font-weight:500;
+    text-align: center;
+    font-size: 30px;
+    color: #000000;
+}
+
+.datos1 {
+    font-weight:500;
+    text-align: end;
+    font-size: 30px;
+    color: #000000;
+}
+
+h4 {
+    font-weight:500;
+    text-align: justify;
+    font-size: 30px;
+    align-items: center;
+    color: #000000;
+    padding: 10px;
+    margin: 5px;
+    border: 2px solid #232946;
+}
+
+footer {
+    background-color: #B8C1EC;
+    top: 500px;
+    position: relative;
+    height: 200px;
+}
